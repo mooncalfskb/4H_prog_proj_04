@@ -3,25 +3,36 @@
 
 <title>A basic form</title>
 
+<script langugage="javascript">
+
+function saySomething(word){
+
+	alert(word);
+}
+
+
+</script>
+
 </head>
 <body>
+
 <h1>A Basic Form</h1>
 
 <form>
-<input type="text" name="name" value="" />
+<input type="text" name="name" id="name" value="" />
 <br><br>
-<input type="radio" name="yes_no" value="No">No</input>
-<input type="radio" name="yes_no" value="Yes">Yes</input>
+<input type="radio" name="yes_no" id="yes_no" value="No">No</input>
+<input type="radio" name="yes_no" id="yes_no" value="Yes">Yes</input>
 <br><br>
-<input type="checkbox" name="oranges" value="oranges">Oranges</input>
-<input type="checkbox" name="apples" value="apples">Apples</input>
+<input type="checkbox" name="oranges" id="oranges" value="oranges">Oranges</input>
+<input type="checkbox" name="apples" id="apples" value="apples">Apples</input>
 <br><br>
-<select name="games">
+<select name="games" id="games">
 <option value="fortnight">Fortnight</option>
 <option value="pokemon_go">Pokemon Go</option>
 </select>
 <br><br>
-<input type="submit" name="submit" value="Submit" onclick="alert('hello')"/>
+<input type="submit" name="submit" value="Submit" onclick="saySomething(document.getElementById('name').value)"/>
 
 </form>
 
