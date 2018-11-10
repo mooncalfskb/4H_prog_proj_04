@@ -10,6 +10,36 @@ function saySomething(word){
 	alert(word);
 }
 
+function saySomething2(word){
+
+	if (word == "Dude"){
+		alert("What's up " + word + "?");
+	}else{
+		alert("Hello " + word);
+	}
+	
+}
+
+function saySomething3(name, oranges, games){
+
+	alert("my name is " + name + " and my fruit is " + oranges + " and my game is " + games);
+}
+
+function switchSomething(game){
+
+	switch (game) {
+		case "fortnight":
+			alert("Flossing!")
+			break;
+		case "pokemon_go":
+			alert("Pikachu!")
+			break;
+		default: 
+        	alert("Love this " + game);
+	}
+
+}
+
 
 </script>
 
@@ -30,9 +60,12 @@ function saySomething(word){
 <select name="games" id="games">
 <option value="fortnight">Fortnight</option>
 <option value="pokemon_go">Pokemon Go</option>
+<option value="monopoly">Monopoly</option>
 </select>
 <br><br>
-<input type="submit" name="submit" value="Submit" onclick="saySomething(document.getElementById('games').value)"/>
+<input type="submit" name="submit" value="Submit" onclick="switchSomething(document.getElementById('games').value)"/>
+
+<!-- onclick="saySomething3(document.getElementById('name').value, document.getElementById('oranges').value, document.getElementById('games').value) -->
 
 </form>
 
