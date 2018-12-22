@@ -1,0 +1,39 @@
+<html>
+<head>
+
+<title>Thoughts</title>
+
+<script langugage="javascript">
+
+function saySomething(greeting, name){
+
+	sentence = "<p>" + greeting + name + "</p>";
+	
+	document.getElementById("demo").innerHTML = sentence;
+	
+}
+
+
+</script>
+
+</head>
+<body>
+
+<h1>Thoughts...</h1>
+
+<form>
+<select name="greeting" id="greeting">
+<option value="What's Up? ">What's Up?</option>
+<option value="Dude... ">Dude... </option>
+<option value="Raspberry Pi ">Raspberry Pi</option>
+<option value="Fortnight ">Fortnight</option>
+</select>
+<br><br>
+<input type="text" name="name" id="name" value="" />
+<br><br>
+<input type="submit" name="submit" value="Submit" onclick="saySomething(document.getElementById('greeting').value, document.getElementById('name').value); return false;"/>
+
+</form>
+<div id="demo"></div>
+
+</html>

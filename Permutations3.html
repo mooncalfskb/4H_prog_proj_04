@@ -1,0 +1,46 @@
+<html>
+<head>
+
+<title>Radio Button Thoughts</title>
+
+<script langugage="javascript">
+
+function saySomething(greeting, name){
+
+	radio_button_value = document.querySelector('input[name="yes_no"]:checked').value;
+	
+	if (radio_button_value == "Other"){yes_no = ""}else{yes_no = radio_button_value}
+
+	sentence = "<p>" + greeting + " " + yes_no + " " + name + "</p>";
+	
+	document.getElementById("demo").innerHTML = sentence;
+	
+}
+
+
+</script>
+
+</head>
+<body>
+
+<h1>Radio Button Thoughts</h1>
+
+<form>
+<select name="question" id="question">
+<option value="Are you staying home for Christmas? ">Are you staying home for Christmas?</option>
+<option value="Do you play a musical instrument? ">Do you play a musical instrument? </option>
+<option value="Who let the dogs out? ">Who let the dogs out? </option>
+</select>
+<br><br>
+<input type="radio" name="yes_no" id="no" value="No">No</input>
+<input type="radio" name="yes_no" id="yes" value="Yes">Yes</input>
+<input type="radio" name="yes_no" id="other" value="Other">Other</input>
+<br><br>
+<input type="text" name="name" id="name" value="" />
+<br><br>
+<input type="submit" name="submit" value="Submit" onclick="saySomething(document.getElementById('question').value,document.getElementById('name').value); return false;"/>
+
+</form>
+<div id="demo"></div>
+
+</html>
