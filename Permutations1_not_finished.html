@@ -1,0 +1,41 @@
+<html>
+<head>
+
+<title>Greetings, Animal</title>
+
+<script langugage="javascript">
+
+function saySomething(){
+
+	
+	
+	//document.getElementById("demo").innerHTML = sentence;
+	
+}
+
+
+</script>
+
+</head>
+<body>
+
+<h1>Greetings Animal!</h1>
+
+<form>
+<select name="greeting" id="greeting">
+<option value="What's Up? ">What's Up?</option>
+<option value="Hello cute ">Hello cute</option>
+</select>
+<br><br>
+<select name="animal" id="animal">
+<option value="dog">dog</option>
+<option value="cat">cat</option>
+</select>
+<br><br>
+<input type="submit" name="submit" value="Submit" onclick="saySomething(document.getElementById('greeting').value, document.getElementById('animal').value); return false;"/>
+
+
+</form>
+<div id="demo"></div>
+
+</html>
