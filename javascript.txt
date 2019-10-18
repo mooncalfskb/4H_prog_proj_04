@@ -1,0 +1,58 @@
+Go to https://js.do/
+
+In another tab of your browser, go to this page: https://www.w3schools.com/js/
+
+click "run code"
+
+erase everything on the left
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+
+<script>
+
+alert("hello");
+
+</script>
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+<script>
+
+window.open("http://www.google.com");
+
+</script>
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+<script>
+
+var x = 100 + 50;
+
+alert(x);
+
+
+</script>
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+<script>
+
+var str = "Your First Name and Your Last Name";
+alert(str);
+
+var pos = str.lastIndexOf("Your First Name");
+alert(pos);
+
+var pos2 = str.lastIndexOf("Your Last Name");
+alert(pos2);
+
+</script>

@@ -1,0 +1,129 @@
+-----------------------------------------------------------
+Locate your downloads folder
+-----------------------------------------------------------
+
+go to fonts.google.com 
+
+click the red + on the first font, robot.
+
+see that there is a black box on the bottom that says 
+"1 font selected"
+
+Click on the dash (-) at the end of that black box.
+
+When the box opens, click the red arrow with a little red line
+under it on the right side of the box. This is "download".
+
+Probably you will see the file icon show up on the right side of 
+your browser. Don't touch it.
+
+STOP! I will come around and make a note of where your download
+folder is in my spreadsheet so we can find it in the future. 
+
+:)
+
+-----------------------------------------------------------
+Make a logo in Canva
+-----------------------------------------------------------
+
+https://www.canva.com/
+
+Click "Create a Design"
+
+Choose "Logo"
+
+A page will come up with some navigation on the left and 
+a big white box on the right.
+
+Click "Text" 
+
+Double click "Add a heading". A heading will appear on your
+page layout. Triple click to highlight the words. 
+Change the words to your name. 
+
+Highlight your name and then look above where it says 
+"Abril Fatface". Pull down on that and choose a font you like.
+
+Keep this page open.
+
+
+-----------------------------------------------------------
+Edit your logo image in pixlr
+-----------------------------------------------------------
+
+I will take a picture of your logo and email it to you.
+
+go to gmail.com (assuming you are logged in with your gmail)
+
+click on the email from me.
+
+click on the photo. It will open in the browser.
+
+Look for the icon that looks like a triangle re-cycling symbol with a + 
+This is "add to drive". Click this.
+
+now go to drive.google.com.
+
+You will see your photo. click on it.
+
+Click the arrow with the line under it. This will download the photo
+to your download folder that we figured out on the first step.
+
+go to https://pixlr.com/x/
+
+Click "open image"
+
+Navigate to the folder that you downloaded the image to. (I will help)
+
+Choose the image.
+
+Upload it. 
+
+Play with your image until you are happy with it. You can crop it, change
+color, do whatever you like.
+
+When you're happy, choose "save"
+
+type a file name like "sherrod_photo" (give it a different name than it just had) 
+
+choose high quality.
+
+click download.
+
+
+-----------------------------------------------------------
+Put your logo image in canva
+-----------------------------------------------------------
+
+Now go back to your tab with canva on it, and go to the left navigation.
+choose "uploads"
+
+navigate to your downloads folder and choose your new image.
+
+upload it and place it on the page. 
+
+crop it if you like.
+
+Add a background color if you like.
+
+Now click "download"
+
+Save this logo with your name and your logo image with a new filename.
+
+
+-----------------------------------------------------------
+Save your full logo to google drive
+-----------------------------------------------------------
+
+Go to drive.google.com
+
+click the big + on the left that says "new"
+
+Choose file upload
+
+Upload your logo file. 
+
+You are done!
+
+
+

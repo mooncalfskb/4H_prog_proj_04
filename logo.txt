@@ -1,0 +1,145 @@
+https://www.w3schools.com/tryit/
+
+Delete everything on the left.
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Your Name's Page</title>
+</head>
+<body>
+
+<p>Your Name</p>
+
+</body>
+</html>
+
+
+-----------------------------------------------------------
+Add a div around the <p>:
+-----------------------------------------------------------
+
+<div id="logo">
+<p>Your Name</p>
+</p>
+
+-----------------------------------------------------------
+Add some color to the div:
+-----------------------------------------------------------
+
+#first pick a color:
+Type "w3 schools color picker" into google and go to that page.
+Pick a color.
+Copy the hex value, which will be something like this: #ff00ff
+
+Inside the <head> tag, after title, type this:
+
+<style>
+#logo {background-color: #FFCCEE;}
+</style>
+
+Click run. Your div holding your name should turn that color.
+If it's not your color, just go back and get the hex value for your color.
+
+
+-----------------------------------------------------------
+Pick a font for your name:
+-----------------------------------------------------------
+
+Type "Google Fonts" in the google page and go there.
+
+Scroll around and pick a font you like.
+
+Click the + in the red circle. See that it puts a black bar 
+at the bottom of the webpage. click that bar.
+
+Copy the embed link and put it inside the <head> tag of your
+try it page, like this:
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+
+Go back to google fonts and copy the "specify in css" code.
+Inside the <style> tag on the try it page, paste what it says like this:
+font-family: 'Modak', cursive;
+
+Add some extra words around it, so it looks like this:
+p {font-family: 'Modak', cursive; font-size: 4em;}
+
+Click run;
+
+You should see your name in the font.
+If you don't, review these instructions and check all your {} and ;
+
+
+-----------------------------------------------------------
+To embed your photo:
+-----------------------------------------------------------
+
+Logon to your gmail account.
+
+Go to the photo you want to show.
+
+Choose sharing by link (right click)
+
+Copy the link
+
+Go to this webpage: j.mp/EmbedGooglePhotos
+
+Paste in the link and click "Generate Code"
+
+Scroll down to the bottom and copy the "Image Embed Code" link. 
+
+Paste into try it.
+
+Add a width and height inside the <a href ....> tag, so you can control the size, like this:
+
+height="200" width="400"
+
+
+-----------------------------------------------------------
+Center your div. 
+-----------------------------------------------------------
+Add an extra <div> around your div that's called "logo", like this:
+
+
+<div id="body">
+<div id="logo">
+<a href='blah blah blah' height="200" width="400" /></a>
+<p>Sherrod Blankner</p>
+</div>
+</div>
+
+Inside the <style> tag in the head, put this:
+#body {text-align: center}
+
+Inside the #logo css put this: 
+#logo {background-color: <YourColor>; padding: 50px 10px 10px 10px; margin: auto; width: 150; height: 100; display: inline-block;}
+
+Click run:
+
+
+-----------------------------------------------------------
+Edit Your Image 
+-----------------------------------------------------------
+
+Go to https://pixlr.com/x/
+
+Copy and paste the src from your embed url above. 
+
+Click "load url" in pixlr.com and paste the source.
+
+Manipulate your photo as needed.
+
+Sample src: https://lh3.googleusercontent.com/XBGygTxfL2OfvPjxiQJG9F1RX8U-v6fDHsWfQBwwjVCkr9wE-ExIe3pQWFp0g__MVxbc3LZ7WhBrQb40tfTGu8yi68Wg8_r-7H4BVes6sDTTjBcNSQJWhbopBS43FFpLkgFoJ4Z9Ig=w2400
+
+
+
+#sample
+https://www.w3schools.com/code/tryit.asp?filename=G936U1CFFSZA
+
