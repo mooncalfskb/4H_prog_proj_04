@@ -1,0 +1,245 @@
+-----------------------------------------------------------
+Open Gmail:
+-----------------------------------------------------------
+
+Go to gmail.com.
+Log in as your gmail account. 
+If you don't have one, you can use the class account.
+Tell the teacher your gmail address so she can email you.
+Keep this window open in a tab.
+
+-----------------------------------------------------------
+Open Google drive:
+-----------------------------------------------------------
+
+Click File > "new tab" on your browser
+Go to drive.google.com
+Click "New" and choose "google doc"
+Title your google doc "Programming Typography 10-25-2019"
+Save.
+Keep this window open in a tab.
+
+-----------------------------------------------------------
+Set up: 
+-----------------------------------------------------------
+
+Go to a new tab (File > New Tab)
+
+Go to: https://www.w3schools.com/tryit/
+
+click "run"
+
+
+remove this code from the <style> tags:
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+remove this code from the <body> 
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>Edit the code in the window to the left, and click "Run" to view the result.</p>
+<img src="avatar.png" alt="Avatar" style="width:200px">
+
+Add this to the body tag (use your own name)
+<p>Your Name</p>
+
+Click "run"
+
+You should see the words "Your Name" (where your name is like Sherrod)
+
+-----------------------------------------------------------
+Add a div around the <p>:
+-----------------------------------------------------------
+
+<div id="logo">
+<p>Your Name</p>
+</div>
+
+click run. you should still see your name
+
+-----------------------------------------------------------
+Add some color to the div:
+-----------------------------------------------------------
+
+#first pick a color:
+Type "w3 schools color picker" into google and go to that page.
+Pick a color.
+Copy the hex value, which will be something like this: #ff00ff
+
+Inside the <head> tag, inside the style tag, type this (but put your
+hex color):
+
+
+#logo {background-color: #FFCCEE;} 
+
+
+Click run. Your div holding your name should turn that color.
+If it's not your color, just go back and get the hex value for your color.
+
+
+-----------------------------------------------------------
+Pick a font for your name:
+-----------------------------------------------------------
+
+Type "Google Fonts" in the google page and go there.
+
+Scroll around and pick a font you like.
+
+Click the + in the red circle. See that it puts a black bar 
+at the bottom of the webpage. click that bar.
+
+Copy the embed link and put it inside the <head> tag of your
+try it page, like this:
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+
+Go back to google fonts and copy the "specify in css" code.
+Inside the <style> tag on the try it page, paste what it says like this:
+font-family: 'Modak', cursive;
+
+put those css tags in a command, so it looks like this:
+p {font-family: 'Modak', cursive; font-size:4em;}
+
+Click run;
+
+You should see your name in the font.
+If you don't, review these instructions and check all your {} and ;
+
+
+-----------------------------------------------------------
+Draw Your Initials in 72dpi and 300dpi
+-----------------------------------------------------------
+
+I will give you sheets of paper to do this on. 
+Draw your initials in 72dpi. You can only put one color
+in each box you use. Your initials will look clunky in 72dpi.
+
+Draw your initials as big as you can in 300dpi. Again, you
+can only use one color per box. You can use as many boxes as
+you like. Your initials should look fancier here.
+
+I will take a picture of each thing and email it to you
+at your gmail address.
+
+
+-----------------------------------------------------------
+Edit your logo image in pixlr
+-----------------------------------------------------------
+
+
+go to gmail.com (assuming you are logged in with your gmail)
+
+click on the email from me.
+
+click on the photo of the 72 dpi image. It will open in the browser.
+
+Look for the icon that looks like a triangle re-cycling symbol with a + 
+This is "add to drive". Click this.
+
+now go to drive.google.com (in the other tab)
+
+You will see your photo. click on it.
+
+Click the arrow with the line under it. This will download the photo
+to your download folder that we figured out on the first step.
+
+go to https://pixlr.com/x/ in a new tab
+
+Click "open image"
+
+Navigate to the folder that you downloaded the image to. (I will help)
+
+Choose the image.
+
+Upload it. 
+
+Play with your image until you are happy with it. You can crop it, change
+color, do whatever you like.
+
+When you're happy, choose "save"
+
+type a file name like "sherrod_initials_72dpi" (give it a different name than it just had) 
+
+choose high quality.
+
+click download. note that the picture is in your download folder.
+
+go back to drive.google.com and choose New > File Upload
+
+upload your file to google drive.
+
+
+
+-----------------------------------------------------------
+To embed your photo in the try it page:
+-----------------------------------------------------------
+
+Inside google drive, choose your picture.
+
+Choose sharing by link (right click)
+
+Copy the link
+
+Go to this webpage: j.mp/EmbedGooglePhotos
+
+Paste in the link and click "Generate Code"
+
+Scroll down to the bottom and copy the "Image Embed Code" link. 
+
+Copy that.
+
+Paste into try it, inside the <div> tag, before the <p> tag.
+
+Something like this:
+
+<a href='https://drive.google.com/file/d/1z4uVqSAoNbptbyiCdlaGASLDC-
+QIO2iV/view?usp=drive_open&amp;usp=embed_facebook&source=ctrlq.org'>
+<img src='https://lh5.googleusercontent.com/qAVIpF7bQQhuy5WPb9ckl
+NUGgsHJlHNUvJzeRMACOebSSl-M9GQaXKKCyN8=w2400'/></a>
+
+Add a width and height inside the <a href ....> tag, so you can control the size, like this:
+
+height="200" width="400">
+
+-----------------------------------------------------------
+Center your div. 
+-----------------------------------------------------------
+Add an extra <div> around your div #logo that's called "body", like this:
+
+
+<div id="body">
+<div id="logo">
+<a href='blah blah blah' height="200" width="400" /></a>
+<p>Sherrod Blankner</p>
+</div>
+</div>
+
+Inside the <style> tag in the head, put this:
+#body {text-align: center}
+
+Inside the #logo css put this: 
+#logo {background-color: <YourColor>; padding: 50px 10px 10px 10px; 
+margin: auto; width: 150; height: 100; display: inline-block;}
+
+Click run:
+
+
+
+#sample
+https://www.w3schools.com/code/tryit.asp?filename=G9AEUK1KMR7V
+
+
+-----------------------------------------------------------
+Save your work.
+-----------------------------------------------------------
+
+One the try it page, click the disk icon to save.
+Click 'okay' to the terms.
+
+Copy the link and paste it into your google doc that you made at the beginning of the class.
+Save.
+You are done.
