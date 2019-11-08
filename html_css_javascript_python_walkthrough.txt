@@ -1,0 +1,227 @@
+-----------------------------------------------------------
+Open Gmail:
+-----------------------------------------------------------
+
+
+-----------------------------------------------------------
+Open Google drive:
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+Set up: 
+-----------------------------------------------------------
+
+Go to a new tab (File > New Tab)
+
+Go to: https://www.w3schools.com/tryit/
+
+click "run"
+
+Delete everything.
+
+
+-----------------------------------------------------------
+Set up: Simple HTML Tags
+-----------------------------------------------------------
+
+<html>
+
+<head>
+</head>
+
+<body>
+
+
+</body>
+</html>
+
+
+-----------------------------------------------------------
+Set up: Simple HTML Tags
+-----------------------------------------------------------
+
+<html>
+
+<head>
+<style>
+
+
+
+</style>
+</head>
+
+<body>
+<div id="body>">
+<div id="logo">
+
+<p id="name">Sherrod</>
+
+</div>
+</div>
+
+
+</body>
+</html>
+
+-----------------------------------------------------------
+Set up: Center and color divs
+-----------------------------------------------------------
+
+
+<html>
+
+<head>
+<style>
+
+#body {text-align: center;}
+#logo {background-color: #FFCCEE;}
+
+</style>
+</head>
+
+<body>
+<div id="body">
+<div id="logo">
+
+<p id="name">Sherrod<p/>
+
+</div>
+</div>
+
+
+</body>
+</html>
+
+
+-----------------------------------------------------------
+Set up: Add padding and width to the logo css command
+-----------------------------------------------------------
+
+#add this to logo css
+
+#logo {background-color: #FFCCEE; padding: 50px 10px 10px 10px; 
+margin: auto; width: 150; height: 100; display: inline-block;}
+
+-----------------------------------------------------------
+Set up: Add font
+-----------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+
+<style>
+
+#body {text-align: center}
+#logo {background-color: #FFCCEE; padding: 50px 10px 10px 10px; 
+margin: auto; width: 150; height: 100; display: inline-block;}
+p {font-family: 'Modak', cursive; font-size: 4em;}
+
+</style>
+</head>
+<body>
+
+<div id="body">
+
+<div id="logo">
+<p id="name">Sherrod</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
+
+
+-----------------------------------------------------------
+Pick a font for your name:
+-----------------------------------------------------------
+
+Type "Google Fonts" in the google page and go there.
+
+Scroll around and pick a font you like.
+
+Click the + in the red circle. See that it puts a black bar 
+at the bottom of the webpage. click that bar.
+
+Copy the embed link and put it inside the <head> tag of your
+try it page, like this:
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+
+Go back to google fonts and copy the "specify in css" code.
+Inside the <style> tag on the try it page, paste what it says like this:
+font-family: 'Modak', cursive;
+
+put those css tags in a command, so it looks like this:
+p {font-family: 'Modak', cursive; font-size:4em;}
+
+Click run;
+
+You should see your name in the font.
+If you don't, review these instructions and check all your {} and ;
+
+
+
+
+-----------------------------------------------------------
+Set up:  Add javascript
+-----------------------------------------------------------
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+
+<title>Page Title</title>
+<style>
+
+#body {text-align: center}
+#logo {background-color: #FFCCEE; padding: 50px 10px 10px 10px; 
+margin: auto; width: 150; height: 100; display: inline-block;}
+p {font-family: 'Modak', cursive; font-size: 4em;}
+
+</style>
+
+<script language="javascript">
+function changeText(id){
+ document.getElementById("name").innerHTML="Dude";
+}
+</script>
+
+</head>
+<body>
+
+<div id="body">
+
+<div id="logo">
+<p id="name"><a href='javascript:changeText("name")'>Sherrod</a></p>
+
+</div>
+
+</div>
+
+</body>
+</html>
+
+
+
+-----------------------------------------------------------
+Save your work.
+-----------------------------------------------------------
+
+One the try it page, click the disk icon to save.
+Click 'okay' to the terms.
+
+Copy the link and paste it into your google doc that you made at the beginning of the class.
+Save.
+You are done.
+
+Your Code has Been Saved
+File has been saved to: https://www.w3schools.com/code/tryit.asp?filename=G9RENEKEDUXV
+
