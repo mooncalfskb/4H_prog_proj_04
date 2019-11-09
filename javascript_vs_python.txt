@@ -1,0 +1,144 @@
+-----------------------------------------------------------
+Set up: Javascript
+-----------------------------------------------------------
+
+Go to https://js.do/
+
+Click "Create New Code"
+
+You should see something that looks like this:
+
+<script>
+// Edit your script here
+
+</script>
+<!-- edit your html here -->
+
+
+-----------------------------------------------------------
+Javascript: Make a function and call it.
+-----------------------------------------------------------
+
+Inside the <script> tags, put a function, like this:
+
+<script>
+// Edit your script here
+
+function writeMe(words){
+
+   document.write('<p>' + words + '</p>');
+}
+
+//call the function 3 times
+writeMe("Hello!");
+
+writeMe("Dude!");
+
+writeMe("What's Up?");
+
+</script>
+<!-- edit your html here -->
+
+Click run.
+
+If it doesn't work, in chrome go to View > Developer > Developer Tools. 
+Run again. See what errors it gives you.
+
+
+-----------------------------------------------------------
+Python: Make a function and call it.
+-----------------------------------------------------------
+
+Type: python online compiler in google.
+
+Click on the first one: Online Python Compiler - online editor - OnlineGDB
+
+You will see this:
+'''
+
+                            Online Python Compiler.
+                Code, Compile, Run and Debug python program online.
+Write your code in this editor and press "Run" button to execute it.
+
+'''
+
+print("Hello World")
+
+
+After print("Hello World"), make a function, like this:
+
+def writeMe(words):
+    print(words)
+    
+writeMe("Hello")
+
+writeMe("Dude")
+
+writeMe("What's Up?")
+
+
+-----------------------------------------------------------
+Click run. Note you have to put a tab after the line with def and indent print(words)
+
+
+
+-----------------------------------------------------------
+PHP: Make a function and call it.
+-----------------------------------------------------------
+
+Go to http://www.writephponline.com/
+
+After echo 'Hello World!';, write a function and call it:
+
+function writeMe($words){
+  
+ echo $words;
+
+}
+
+
+writeMe("Hello");
+writeMe("Dude");
+writeMe("What's up?");
+
+-----------------------------------------------------------
+Be careful to click on "Run Code" and not the ads.
+Note that the words all run together
+
+Add this line right after echo $words;
+
+echo "<br/>";
+
+
+LIke this:
+
+function writeMe($words){
+  
+ echo $words;
+ echo "<br/>";
+
+}
+
+-----------------------------------------------------------
+Now run again. The <br> tag creates an HTML separator.
+
+
+
+-----------------------------------------------------------
+Ruby: Make a function and call it
+-----------------------------------------------------------
+
+google "ruby online compiler"
+
+click on Online Ruby Editor and IDE - Fast, Powerful, Free - Repl.it
+
+Write this function and call it:
+
+def writeMe(words)
+  print words
+  print "\n"
+end
+
+writeMe("Hello")
+writeMe("Dude")
+writeMe("What's UP?")
