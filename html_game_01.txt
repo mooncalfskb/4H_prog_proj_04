@@ -49,6 +49,13 @@ this.update = function() {
         }
     }
     
+    
+<img id="fireball" src="put_your_image_here" />
+#example:
+<img id="fireball" src="https://media.giphy.com/media/hZhUqv2ynmq0o/giphy.gif" />
+
+myGamePiece = new component(100, 20, "blue", 200, 15, "image");
+
 
 this.update = function() {
         ctx = myGameArea.context;
@@ -65,9 +72,9 @@ this.update = function() {
         }
     }
 
-myGamePiece = new component(100, 20, "blue", 200, 15, "image");
-    
+#add display none
 <img id="fireball" style="display:none;" src="https://media.giphy.com/media/hZhUqv2ynmq0o/giphy.gif" />
+
 
 <img id="fireball" style="display:none;" src="https://p7.hiclipart.com/preview/846/429/290/hulk-captain-america-thor-black-widow-mask-angry-emoji.jpg" />
         
@@ -125,7 +132,7 @@ Put following code between:
 
 #code:
 
-         x = myGameArea.canvas.width;
+		 x = myGameArea.canvas.width;
 		 console.log("x = " + x);
 		 minHeight = 20;
 		 maxHeight = 200;
