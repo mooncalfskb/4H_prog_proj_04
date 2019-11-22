@@ -49,13 +49,104 @@ this.update = function() {
         }
     }
     
+
+this.update = function() {
+        ctx = myGameArea.context;
+        if (this.type == "text") {
+            ctx.font = this.width + " " + this.height;
+            ctx.fillStyle = color;
+            ctx.fillText(this.text, this.x, this.y);
+        } else if (this.type == "image") {
+            var img = document.getElementById("fireball");
+  			ctx.drawImage(img, this.x, this.y, this.width, this.height);
+        } else {
+            ctx.fillStyle = color;
+            ctx.fillRect(this.x, this.y, this.width, this.height);
+        }
+    }
+
+myGamePiece = new component(100, 20, "blue", 200, 15, "image");
+    
 <img id="fireball" style="display:none;" src="https://media.giphy.com/media/hZhUqv2ynmq0o/giphy.gif" />
+
+<img id="fireball" style="display:none;" src="https://p7.hiclipart.com/preview/846/429/290/hulk-captain-america-thor-black-widow-mask-angry-emoji.jpg" />
+        
+<video controls width="250">
+
+    <source src="https://www.youtube.com/watch?v=MmBjl6oCxn4"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+        
+        
         
 #html 5 2d       
 canvasrenderingcontext2d
-
+https://codetheory.in/basics-of-implementing-gravity-with-html5-canvas/
 
 giphy fireball sticker
 https://giphy.com/stickers/fireball-hZhUqv2ynmq0o
 
+#add bounce
 
+Inside component, right after 
+this.gravitySpeed = 0;
+#add: 
+this.bounce = 0.6;
+
+Also, inside 
+this.hitBottom = function() 
+
+Comment out this line
+//this.gravitySpeed = 0;
+#add this line
+this.gravitySpeed = -(this.gravitySpeed * this.bounce);
+
+#change accelerate and decellerate
+
+#change everyinterval(150)
+
+#change colors and widths of green bars
+#change x of green bars.
+
+Put following code between:
+
+ if (myGameArea.frameNo == 1 || everyinterval(150)) {
+
+    <code goes here>
+
+    }
+    for (i = 0; i < myObstacles.length; i += 1) {
+        myObstacles[i].x += -1;
+        myObstacles[i].update();
+    }
+
+
+#code:
+
+         x = myGameArea.canvas.width;
+		 console.log("x = " + x);
+		 minHeight = 20;
+		 maxHeight = 200;
+		 hr = Math.random();
+		 console.log("random height number = " + hr);
+		 hr2 = (maxHeight-minHeight+1);
+		 console.log("maxheight = minheight + 1 = " + hr2);
+		 hrxhr2 = (hr*hr2);
+		 console.log("hr * hr2 = " + hrxhr2);
+		 height = Math.floor(hrxhr2+minHeight);
+		 console.log("the final height is " + height + " which is a random amount times (maxHeight-minHeight+1) plus the minHeight (" + hr +  " * " + hr2 + " ) +" + minHeight);
+		 minGap = 50;
+		 maxGap = 200;
+		 gr = Math.random();
+		 console.log("random gap number = " + gr);
+		 gr2 = (maxGap-minGap+1);
+		 console.log("maxGap = minGap + 1 = " + gr2);
+		 gap = Math.floor(gr*gr2+minGap);
+		 console.log("the final gap is " + gap + " which is a random amount times (maxGap-minGap+1) plus the minGap (" + gr +  " * " + gr2 + " ) +" + minGap);
+		 c2height = x - height - gap;
+		 console.log("the height of the 2nd bar is " +  c2height);
+		 console.log("the y placement of the 2nd bar is " + (height + gap));
+		 myObstacles.push(new component(10, height, "orange", x, 0));
+		 myObstacles.push(new component(10, x - height - gap, "blue", x, height + gap));
