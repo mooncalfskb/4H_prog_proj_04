@@ -1,0 +1,61 @@
+Search for "html game example wc3 schools"
+
+Click on "HTML Game Example - W3Schools"
+
+Scroll down and click "try it yourself"
+
+
+#change the background
+
+canvas {
+    border:3px dashed #FFCC00;
+    background-color: #880033;
+}
+
+component(width, height, color, x, y, type)
+
+myGamePiece = new component(30, 30, "red", 10, 120);
+myGamePiece.gravity = 0.05;
+myScore = new component("30px", "Consolas", "black", 280, 40, "text");
+
+
+myGamePiece = new component(100, 20, "blue", 200, 15);
+myGamePiece.gravity = 0.05;
+myScore = new component("30px", "Consolas", "black", 280, 40, "text");
+
+
+#turn into circle
+myGamePiece = new component(30, 30, "red", 10, 120, "circle");
+
+this.update = function() {
+        ctx = myGameArea.context;
+        if (this.type == "text") {
+            ctx.font = this.width + " " + this.height;
+            ctx.fillStyle = color;
+            ctx.fillText(this.text, this.x, this.y);
+        } else if (this.type == "circle") {
+            ctx.beginPath();
+			ctx.arc(this.x, this.y, 12, 0, 2 * Math.PI);
+            ctx.fillStyle = color;
+			ctx.fill();
+			ctx.shadowColor = color;
+            ctx.shadowBlur = 8;
+        } else if (this.type == "image") {
+            var img = document.getElementById("fireball");
+  			ctx.drawImage(img, this.x, this.y, this.width, this.height);
+        } else {  
+            ctx.fillStyle = color;
+            ctx.fillRect(this.x, this.y, this.width, this.height);
+        }
+    }
+    
+<img id="fireball" style="display:none;" src="https://media.giphy.com/media/hZhUqv2ynmq0o/giphy.gif" />
+        
+#html 5 2d       
+canvasrenderingcontext2d
+
+
+giphy fireball sticker
+https://giphy.com/stickers/fireball-hZhUqv2ynmq0o
+
+
