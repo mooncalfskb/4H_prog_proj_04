@@ -1,0 +1,137 @@
+------------------------------------------------------
+#step 1: have a gmail address or github account
+------------------------------------------------------
+
+1. You need to know your password.
+2. once you know your account user name and password,
+go to:
+
+https://www.magikcraft.io/
+
+Click "try it now!"
+
+When it comes up with "login", choose github or google
+and follow the instructions.
+
+
+------------------------------------------------------
+#step 2: create 1 spell
+------------------------------------------------------
+
+When you are logged into magikcraft, click "Editor"
+
+A page will come up that says "My Spells"
+
+Click "new"
+
+A box will appear on the right with this text in it:
+
+---------------------------------------
+const magik = magikcraft.io
+
+function main() {
+
+}
+---------------------------------------
+
+You should add one line of trashtalk in the function,
+like this below. You can say what you want, but keep it PG.
+
+---------------------------------------
+const magik = magikcraft.io
+
+function main() {
+   magik.dixit("I'm the best!")
+}
+---------------------------------------
+
+click "Save trashtalk" at the bottom right.
+Make sure it saves. sometimes it's a little wonky.
+if it doesn't save, reload the page, retype, and click save.
+
+
+------------------------------------------------------
+#step 2: have minecraft java edition on your computer
+------------------------------------------------------
+
+Inside minecraft, under "installations," makes sure you have
+minecraft 1.14.4. If you don't have it, click "new" and choose
+it from the list. You can name it "magikcraft 1.14.4"
+
+Once you have that, click on that and choose play.
+
+When the app loads, choose "multiplayer"
+
+click "Add Server"
+
+For the name type "Magikcraft 1.14.4"
+For the address, type "play.magikcraft.io"
+
+Then click on the server and enter the game.
+
+Hopefully it will load your spells. 
+
+Type /spells to see your spells.
+
+To cast the "trashtalk" spell, type:
+
+/cast trashtalk
+
+
+
+
+------------------------------------------------------
+More spells
+------------------------------------------------------
+
+#fireball
+
+------------------------------------------------------
+const magik = magikcraft.io;
+
+function main(num){
+
+  magik.dixit("here comes " + num + "fireballs!")
+  magik.infierno(num);
+
+}
+------------------------------------------------------
+
+#magikcarpet
+
+------------------------------------------------------
+const magik = magikcraft.io;
+
+magik.declaro('elytra');
+------------------------------------------------------
+
+
+#blink
+------------------------------------------------------
+const magik = magikcraft.io
+
+function main() {
+	const there = magik.aspecto();
+    magik.ianuae(there);
+}
+------------------------------------------------------
+
+
+#speak
+------------------------------------------------------
+const magik = magikcraft.io;
+
+function main(word1="", word2="", word3="", word4="", word5=""){
+    magik.dixit(word1 + " " + word2  + " " +  word3 + " " +  word4 + " " +  word5)
+}
+------------------------------------------------------
+
+
+#more spells located here:
+#browse and try some.
+
+https://github.com/jwulf/magikcraft-spells--jwulf/
+
+
+
+
