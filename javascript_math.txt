@@ -1,0 +1,150 @@
+Go to https://js.do/
+
+erase everything on the left:
+
+
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+<script>
+
+var x = Math.PI;
+
+document.write(x);
+
+</script>
+
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+<script>
+
+var x = Math.round(4.4);
+
+document.write(x);
+
+</script>
+
+
+<script>
+
+var x = Math.ceil(4.4);
+
+document.write(x);
+
+</script>
+
+
+<script>
+
+var x = Math.floor(4.4);
+
+document.write(x);
+
+</script>
+
+
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+<script>
+
+var x = Math.pow(8,2);
+
+document.write(x);
+
+</script>
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+<script>
+
+var x = Math.sqrt(144);
+
+document.write(x);
+
+</script>
+
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+<script>
+
+var x = Math.sqrt(144);
+
+document.write(x);
+
+</script>
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+<script>
+
+var x = Math.min(0, 150, 30, 20, -8, -200); 
+
+document.write(x);
+
+</script>
+
+#same with max
+
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+<script>
+
+var x = Math.random();
+
+document.write(x);
+
+</script>
+
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+
+<script>
+
+var x = Math.random() 
+document.write("My random number = " + x);
+
+var y = x * 10;
+document.write("<br><br>My random number times 10 = " + y);
+
+var z = Math.floor(y);
+document.write("<br><br>the floor of x * 10 = " + z);
+
+</script>
+
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+<script>
+
+function getRndInteger(min, max) {
+
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+  
+}
+
+document.write(getRndInteger(20,50));
+
+</script>

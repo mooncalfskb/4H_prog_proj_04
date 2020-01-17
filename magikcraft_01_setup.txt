@@ -69,7 +69,15 @@ For the address, type "play.magikcraft.io"
 
 Then click on the server and enter the game.
 
-Hopefully it will load your spells. 
+The first time you enter the magikcraft universe,
+after a minute, a message will come up that says 
+"enter the chat and click this link" 
+You should press "T" to enter the chat and clink the link.
+That will connect your account to your spells.
+
+Once you have connected your account, you may have to 
+exit the magikcraft universe for a minute and then re-enter
+in order to see your spells.
 
 Type /spells to see your spells.
 
@@ -123,6 +131,15 @@ const magik = magikcraft.io;
 
 function main(word1="", word2="", word3="", word4="", word5=""){
     magik.dixit(word1 + " " + word2  + " " +  word3 + " " +  word4 + " " +  word5)
+}
+------------------------------------------------------
+
+#feedme
+------------------------------------------------------
+const magik = magikcraft.io
+
+function main() {
+	magik.satio();
 }
 ------------------------------------------------------
 
