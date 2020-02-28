@@ -1,0 +1,97 @@
+Search in google for:
+w3schools javascript regex
+https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+
+
+
+Go to https://js.do/
+
+erase everything on the left:
+
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+<script>
+
+var formula = "Peter, PETER, peTer";
+var reg = /Peter/;
+matches = formula.match(reg);
+document.write(matches);
+
+</script>
+
+#variations:
+#finds all capital Ps
+var reg = /P/g;
+#finds all lowercase p's
+var reg = /p/g;
+#finds all peter, ignores case
+var reg = /Peter/ig;
+#output first match
+document.write(matches[0]);
+#output second match
+document.write(matches[1]);
+
+-----------------------------------------------------------
+type this and click run:
+-----------------------------------------------------------
+
+<script>
+
+var formula = "0099, abc9, 9";
+var reg = /[9]/;
+matches = formula.match(reg);
+document.write(matches);
+
+</script>
+
+
+#variations:
+#finds all 9s
+var reg = /[9]/g;
+#finds all 9s in groups of 2
+var reg = /[9]{2}/g;
+#finds all 9s preceded by a letter
+var reg = /[a-z][9]/g;
+#fins all 9s preceded by a capital letter:
+var reg = /[A-Z][9]/g;
+#finds instance of 2 zeros and 2 9s
+var reg = /[0]{2}[9]{2}/g;
+
+
+-----------------------------------------------------------
+copy this and click run:
+-----------------------------------------------------------
+
+<script>
+
+var formula = ["Hello","hello","Yo, HEllo there llama!"];
+
+formula.forEach(doRegex);
+
+function doRegex(value) {
+  var reg = /Hello/ig;
+  matches = value.match(reg);
+  document.write(matches + '<br>');
+}
+
+</script>
+
+#variations:
+#starts with Hello:
+var reg = /^Hello/ig;
+#ends with Hello:
+var reg = /Hello$/ig;
+#has a space after hello:
+var reg = /Hello[ ]/ig;
+#find a word beginning with hello:
+var reg = /\bHello/ig;
+#find 2 ls:
+var reg = /[l]{2}/ig;
+
+
+
+
+
