@@ -67,7 +67,7 @@ copy this and click run:
 
 <script>
 
-var formula = ["Hello","hello","Yo, HEllo there llama!"];
+var formula = ["Hello","hello!","Yo, HEllo there llama!"];
 
 formula.forEach(doRegex);
 
@@ -84,6 +84,8 @@ function doRegex(value) {
 var reg = /^Hello/ig;
 #ends with Hello:
 var reg = /Hello$/ig;
+#ends with hello!
+var reg = /hello!$/ig;
 #has a space after hello:
 var reg = /Hello[ ]/ig;
 #find a word beginning with hello:
