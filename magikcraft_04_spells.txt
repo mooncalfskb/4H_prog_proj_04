@@ -1,0 +1,25 @@
+#fly
+------------------------------------------------------
+
+
+const magik = magikcraft.io;
+
+function main() {
+	magik.volare();
+    magik.dixit('Fly!');
+}
+
+------------------------------------------------------
+
+
+
+#mc (magic carpet)
+------------------------------------------------------
+
+const magik = magikcraft.io
+
+function main() {
+    magik.declaro('elytra');
+}
+
+------------------------------------------------------
