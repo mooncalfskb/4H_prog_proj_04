@@ -1,0 +1,65 @@
+
+
+https://www.onlinegdb.com/online_bash_shell
+
+########################
+date
+
+ls /usr/share/zoneinfo/
+ls /usr/share/zoneinfo/America
+
+TZ=America/Los_Angeles date
+
+date +%s
+
+https://www.epochconverter.com/
+
+date --date="Sep 20 19:17:00 EST 1968" +%s
+-40347780
+
+exparte_0000900533880000_000000.json
+Wednesday, July 15, 1998
+exparte_0001515388110000_000000.json
+Monday, January 8, 2018 5:08:30
+
+date -d @900533880
+date -d @1515388110
+
+########################
+
+cal 2020
+cal 1752
+
+cal -d 2005-10
+
+#two months after
+cal -A2
+#two months before
+cal -B2
+
+https://bellard.org/jslinux/vm.html?url=buildroot-x86.cfg
+
+########################
+
+https://bellard.org/jslinux/vm.html?url=buildroot-x86.cfg
+
+ls
+pwd
+mkdir dude
+cd dude
+pwd
+/root/dude
+echo "hello dude" > dude.txt
+cat dude.txt
+grep -rn dude .
+
+echo "00abc" > abc00.txt
+echo "9990abc" > abc9990.txt
+
+ls
+grep -rn [0-9] .
+grep -rn [9] .
+
+
+
+
