@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rollovers</title>
+	<meta name="generator" content="BBEdit 12.6" />
+	<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+
+	<script>
+	$(document).ready(function(){
+	$("img").hover(function() {
+	var temp = $(this).attr("src");
+	$(this).attr("src", $(this).attr("data-alt-src"));
+	$(this).attr("data-alt-src", temp);
+	});
+	})
+	</script>
+
+</head>
+<body>
+
+<div>
+
+<img src="https://www.expartedev.com:3000/wp-content/uploads/2020/05/okay_scorpion.png" data-alt-src="https://www.expartedev.com:3000/wp-content/uploads/2020/05/fish.png">
+
+</div>
+
+</body>
+</html>
