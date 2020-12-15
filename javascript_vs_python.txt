@@ -76,6 +76,74 @@ writeMe("Dude")
 
 writeMe("What's Up?")
 
+a = "Dude"
+
+if a == "Dude":
+    print("What's up Dude!")
+else:
+    print("Hello " + a)
+    
+a = "Dude"
+
+if a == "Dude":
+    print("What's up Dude!")
+else:
+    print("Hello " + a)
+
+a = "Dude"
+
+if a == "Dude":
+    print("What's up Dude!")
+elif a == "Sweet":
+    print("Hey that's Sweet")
+else:
+    print("Hello " + a)
+
+
+def saySomething(a, b):
+    print(str(a) + " " + str(b))
+    
+a = "What's up"
+b = "Dude!"
+
+saySomething(a, b)
+
+def saySomething(words):
+    print(str(words))
+    
+saySomething("What's Up Dude!")
+
+print(5+7)
+
+def addTwoNums(a, b):
+    print(a+b)
+    
+addTwoNums(12,14)
+
+addTwoNums(127,1499099)
+
+addTwoNums("dude", "sweet")
+
+
+a="Henry"
+matches = a.split("n")
+print(matches)
+print(matches[0])
+print(matches[1])
+
+a="Henry"
+matches = a.split("n")
+print(matches)
+print(matches[0])
+print(matches[1])
+
+for part in matches:
+    if part == "He":
+        print("He!")
+    else:
+        print("Not He!")
+
+
 
 -----------------------------------------------------------
 Click run. Note you have to put a tab after the line with def and indent print(words)
